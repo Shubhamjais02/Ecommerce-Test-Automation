@@ -1,35 +1,40 @@
-Module	Examples
-Home	Home page, navigation, subscription
-Authentication	Register, login, logout
-Negative auth	Invalid login, existing email
-Products	Product list, details, search
-Cart	Add/remove/update products
-Checkout	Address/order validation
-Payment	Place order
-Contact	Contact form + file upload
-UI	Scroll, navigation
-Download	Invoice
-API	Product/user APIs
 
+# Automation Exercise - Playwright Python Automation Framework
 
-tests/test_cart.py
+End-to-end test automation framework for Automation Exercise using:
 
-TC12 Add products
-TC13 Verify product quantity
-TC20 Search products + cart
+- Python
+- Playwright
+- Pytest
+- Page Object Model
+- Pytest Fixtures
+- GitHub Actions
+- HTML Reporting
 
+## Features
 
-tests/test_checkout.py
+- Page Object Model
+- Reusable fixtures
+- Test data management
+- Dynamic test data
+- Cross-browser testing
+- Screenshot on failure
+- Trace on failure
+- HTML reports
+- Smoke/regression test suites
+- CI/CD using GitHub Actions
 
-TC14 Register during checkout
-TC15 Register before checkout
-TC16 Login before checkout
-TC23 Verify address
-TC24 Download invoice
+## Test Coverage
 
+| Module | Tests |
+|---|---|
+| Authentication | 5 |
+| Products | 4 |
+| Cart | 3 |
+| Checkout | 5 |
+| Contact | 1 |
 
-
-
+```
 automationexercise-playwright/
 │
 ├── .github/
@@ -79,43 +84,7 @@ automationexercise-playwright/
 ├── .gitignore
 ├── README.md
 └── LICENSE
-
-
-
-# Automation Exercise - Playwright Python Automation Framework
-
-End-to-end test automation framework for Automation Exercise using:
-
-- Python
-- Playwright
-- Pytest
-- Page Object Model
-- Pytest Fixtures
-- GitHub Actions
-- HTML Reporting
-
-## Features
-
-- Page Object Model
-- Reusable fixtures
-- Test data management
-- Dynamic test data
-- Cross-browser testing
-- Screenshot on failure
-- Trace on failure
-- HTML reports
-- Smoke/regression test suites
-- CI/CD using GitHub Actions
-
-## Test Coverage
-
-| Module | Tests |
-|---|---|
-| Authentication | 5 |
-| Products | ... |
-| Cart | ... |
-| Checkout | ... |
-| Contact | ... |
+```
 
 ## Installation
 
