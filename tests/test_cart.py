@@ -1,4 +1,3 @@
-import pytest
 
 from data.test_data import PRODUCT_SEARCH_TERM, VALID_EMAIL, VALID_PASSWORD
 
